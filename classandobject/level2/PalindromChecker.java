@@ -1,3 +1,10 @@
+/*
+Program to Check Palindrome String
+Problem Statement: 	Create a PalindromeChecker class with an attribute text. Add methods to:
+Check if the text is a palindrome.
+Display the result.
+Explanation: The PalindromeChecker class holds the text attribute. The methods operate on this attribute to verify its palindrome status and display the result.
+ */
 import java.util.Scanner;
 class PalindromeChecker{
     static String text;

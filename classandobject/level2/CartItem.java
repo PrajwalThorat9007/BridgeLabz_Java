@@ -1,3 +1,11 @@
+/*
+Program to Simulate a Shopping Cart
+Problem Statement: Create a CartItem class with attributes itemName, price, and quantity. Add methods to:
+Add an item to the cart.
+Remove an item from the cart.
+Display the total cost.
+Explanation: The CartItem class models a shopping cart item. The methods handle cart operations like adding or removing items and calculating the total cost.
+ */
 import java.util.Scanner;
 
 class CartItem{

@@ -1,3 +1,10 @@
+/*
+Program to Model a Movie Ticket Booking System
+Problem Statement: Create a MovieTicket class with attributes movieName, seatNumber, and price. Add methods to:
+Book a ticket (assign seat and update price).
+Display ticket details.
+Explanation: The MovieTicket class organizes ticket information with attributes. The methods handle booking logic and display ticket details.
+ */
 import java.util.Scanner;
 
 class MovieTicket {
