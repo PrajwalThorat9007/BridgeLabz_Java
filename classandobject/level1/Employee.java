@@ -1,3 +1,7 @@
+/*
+Program to Display Employee Details
+Problem Statement: Write a program to create an Employee class with attributes name, id, and salary. Add a method to display the details.
+ */
 import java.util.Scanner;
 class Employee{
     private String name;

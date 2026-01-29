@@ -1,3 +1,7 @@
+/*
+Program to Handle Book Details
+Problem Statement: Write a program to create a Book class with attributes title, author, and price. Add a method to display the book details.
+ */
 class Book{
     private String title;
     private String author;
