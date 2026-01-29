@@ -24,6 +24,8 @@
 
 - **24-Jan-2025 (Sat):** Solved OOPS Level 2 and learned Java source file structure, Access Modifiers 
 
-- **27-Jan-2025 (Mon):** Studied OOPS concepts like Inheritance, Abstraction, Polymorphism and Encapsulation, data hiding, overloading and overriding
+- **27-Jan-2025 (Tue):** Studied OOPS concepts like Inheritance, Abstraction, Polymorphism and Encapsulation, data hiding, overloading and overriding
 
-- **28-Jan-2025 (Tue):** Solved Java Constructors Problems and learned about concepts of constructors and rebuild my GitHub Repo with right folder sctructure
+- **28-Jan-2025 (Wed):** Solved Java Constructors Problems and learned about concepts of constructors and rebuild my GitHub Repo with right folder sctructure
+
+-**29-Jan-2025 (Thu):**Solved access modifier problems and learned difference betwen pubilc, private and protected members and thier respective scope in code.
