@@ -16,23 +16,31 @@ import java.util.Scanner;
 class AbundantNumber {
     public static void main(String[] args) {
 
+        // Create Scanner object to take input
         Scanner sc = new Scanner(System.in);
 
+        // Read the number
         int number = sc.nextInt();
+
+        // Variable to store sum of proper divisors
         int sum = 0;
 
+        // Find sum of all factors excluding the number itself
         for (int i = 1; i < number; i++) {
             if (number % i == 0) {
                 sum = sum + i;
             }
         }
 
+        // Check whether the number is abundant
         if (sum > number) {
             System.out.println("Abundant Number");
         } else {
             System.out.println("Not an Abundant Number");
         }
 
+        // Close the Scanner
         sc.close();
     }
 }
+
