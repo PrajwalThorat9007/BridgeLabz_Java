@@ -11,11 +11,13 @@ class EmployeeBonus {
     public static void main(String[] args) {
         Scanner sc = new Scanner(System.in);
 
+        //declaring variable
         double salary = sc.nextDouble();
         int yearsOfService = sc.nextInt();
 
         double bonus = 0;
 
+        //checking year of service
         if (yearsOfService > 5) {
             bonus = salary * 0.05;
         }
