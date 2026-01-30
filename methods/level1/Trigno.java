@@ -5,25 +5,35 @@ public double[] calculateTrigonometricFunctions(double angle)
  */
 import java.util.Scanner;
 
-class Trigno{
-    public double[] trignoFunction(double angle){
-        double sin=Math.sin(angle);
-        double cos=Math.cos(angle);
-        double tan=sin/cos;
+class Trigno {
+
+    // Method to calculate sin, cos, and tan of an angle
+    public double[] trignoFunction(double angle) {
+        double sin = Math.sin(angle);
+        double cos = Math.cos(angle);
+        double tan = sin / cos;
         
-        return new double[]{sin,cos,tan};
+        return new double[] { sin, cos, tan };
     }
-    public static void main(String[] args){
-        Scanner sc=new Scanner(System.in);
+
+    public static void main(String[] args) {
+
+        // Create Scanner object to take input
+        Scanner sc = new Scanner(System.in);
         
-        double num=sc.nextDouble();
-        double angle=num*(Math.PI/180);
+        // Read angle in degrees
+        double num = sc.nextDouble();
+
+        // Convert angle from degrees to radians
+        double angle = num * (Math.PI / 180);
         
-        Trigno obj=new Trigno();
+        // Create object of Trigno class
+        Trigno obj = new Trigno();
         
-        double[] ans=obj.trignoFunction(angle);
+        // Call trigonometric function method
+        double[] ans = obj.trignoFunction(angle);
     
-        System.out.println("Sin= "+ans[0]+"Cos= "+ans[1]+"Tan= "+ans[2]);
-        
+        // Display trigonometric values
+        System.out.println("Sin= " + ans[0] + " Cos= " + ans[1] + " Tan= " + ans[2]);
     }
 }
