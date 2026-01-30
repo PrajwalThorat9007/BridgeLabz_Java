@@ -13,14 +13,20 @@ class ArmstrongNumber {
 
     public static void main(String[] args) {
 
+        // Create Scanner object to take input
         Scanner sc = new Scanner(System.in);
 
+        // Prompt and read the number
         System.out.print("Enter a number: ");
         int number = sc.nextInt();
 
+        // Store original number for comparison
         int originalNumber = number;
+
+        // Variable to store sum of cubes of digits
         int sum = 0;
 
+        // Extract digits and calculate sum of their cubes
         while (originalNumber != 0) {
 
             int digit = originalNumber % 10;
@@ -30,12 +36,15 @@ class ArmstrongNumber {
             originalNumber = originalNumber / 10;
         }
 
+        // Check whether the number is an Armstrong number
         if (sum == number) {
             System.out.println(number + " is an Armstrong number.");
         } else {
             System.out.println(number + " is NOT an Armstrong number.");
         }
 
+        // Close the Scanner
         sc.close();
     }
 }
+
