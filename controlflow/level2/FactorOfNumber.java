@@ -10,10 +10,14 @@ import java.util.Scanner;
 
 class FactorsOfNumber {
     public static void main(String[] args) {
+
+        // Create Scanner object to take input
         Scanner sc = new Scanner(System.in);
 
+        // Read the number
         int number = sc.nextInt();
 
+        // Find and print all factors of the number
         for (int i = 1; i < number; i++) {
             if (number % i == 0) {
                 System.out.println(i);
