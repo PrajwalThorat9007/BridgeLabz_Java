@@ -11,17 +11,25 @@ import java.util.Scanner;
 
 class PowerOfNumber {
     public static void main(String[] args) {
+
+        // Create Scanner object to take input
         Scanner sc = new Scanner(System.in);
 
+        // Read the base number
         int number = sc.nextInt();
+
+        // Read the power value
         int power = sc.nextInt();
 
+        // Variable to store the result
         int result = 1;
 
+        // Calculate number raised to the given power
         for (int i = 1; i <= power; i++) {
             result = result * number;
         }
 
+        // Print the result
         System.out.println(result);
     }
 }
