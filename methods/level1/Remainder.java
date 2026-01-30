@@ -7,20 +7,29 @@ public static int[] findRemainderAndQuotient(int number, int divisor)  */
 
 import java.util.Scanner;
 
-class Remainder{
-    public static int[] QuotientRemainder(int num1,int num2){
-        int quotient=num1/num2;
-        int Remainder=num1%num2;
+class Remainder {
+
+    // Method to calculate quotient and remainder
+    public static int[] QuotientRemainder(int num1, int num2) {
+        int quotient = num1 / num2;
+        int Remainder = num1 % num2;
         
-        return new int[] {quotient,Remainder};
+        return new int[] { quotient, Remainder };
     }
-    public static void main(String[] args){
-        Scanner sc=new Scanner(System.in);
+
+    public static void main(String[] args) {
+
+        // Create Scanner object to take input
+        Scanner sc = new Scanner(System.in);
         
-        int num1=sc.nextInt();
-        int num2=sc.nextInt();
+        // Read two integers
+        int num1 = sc.nextInt();
+        int num2 = sc.nextInt();
         
-        int[] result=QuotientRemainder(num1,num2);
-        System.out.println(result[0]+" "+result[1]);
+        // Call method to get quotient and remainder
+        int[] result = QuotientRemainder(num1, num2);
+
+        // Display quotient and remainder
+        System.out.println(result[0] + " " + result[1]);
     }
 }
