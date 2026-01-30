@@ -9,6 +9,7 @@ import java.util.Scanner;
 
 class SumOfNaturalNumbers {
 
+    // Recursive method to calculate sum of natural numbers
     public static int recursiveSum(int n) {
         if (n == 0) {
             return 0;
@@ -16,33 +17,43 @@ class SumOfNaturalNumbers {
         return n + recursiveSum(n - 1);
     }
 
+    // Method to calculate sum using mathematical formula
     public static int formulaSum(int n) {
         return n * (n + 1) / 2;
     }
 
     public static void main(String[] args) {
 
+        // Create Scanner object to take input
         Scanner sc = new Scanner(System.in);
 
+        // Read the number
         int n = sc.nextInt();
 
+        // Validate natural number
         if (n <= 0) {
             System.out.println("Not a natural number");
             return;
         }
 
+        // Calculate sum using recursion
         int sumUsingRecursion = recursiveSum(n);
+
+        // Calculate sum using formula
         int sumUsingFormula = formulaSum(n);
 
+        // Display both results
         System.out.println("Sum using recursion: " + sumUsingRecursion);
         System.out.println("Sum using formula: " + sumUsingFormula);
 
+        // Compare both results
         if (sumUsingRecursion == sumUsingFormula) {
             System.out.println("Both results are correct and equal");
         } else {
             System.out.println("Results are not equal");
         }
 
+        // Close the Scanner
         sc.close();
     }
 }
