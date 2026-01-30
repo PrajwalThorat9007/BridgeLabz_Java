@@ -10,14 +10,22 @@ import java.util.Scanner;
 
 class PrimeNumber {
     public static void main(String[] args) {
+
+        // Create Scanner object to take input
         Scanner sc = new Scanner(System.in);
 
+        // Read the number
         int number = sc.nextInt();
+
+        // Flag to determine whether the number is prime
         boolean isPrime = true;
 
+        // Numbers less than or equal to 1 are not prime
         if (number <= 1) {
             isPrime = false;
         } else {
+
+            // Check divisibility from 2 to number-1
             for (int i = 2; i < number; i++) {
                 if (number % i == 0) {
                     isPrime = false;
@@ -26,6 +34,7 @@ class PrimeNumber {
             }
         }
 
+        // Display result
         if (isPrime) {
             System.out.println(number + " is a Prime Number");
         } else {
