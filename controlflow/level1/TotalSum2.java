@@ -6,17 +6,29 @@ Take the user entry and check if the user entered 0 or a negative number to brea
 */
 import java.util.Scanner;
 
-class DivisibleByFive{
-    public static void main(String[] args){
-        Scanner sc=new Scanner(System.in);
-        double total=0;
-        while(true){
-            double num=sc.nextDouble();
-            if(num==0) break;
-            else{
-            total=total+num;
+class DivisibleByFive {
+    public static void main(String[] args) {
+
+        // Create Scanner object to take input
+        Scanner sc = new Scanner(System.in);
+
+        // Variable to store total sum
+        double total = 0;
+
+        // Continuously read numbers until 0 is entered
+        while (true) {
+            double num = sc.nextDouble();
+
+            // Stop input when 0 is entered
+            if (num == 0)
+                break;
+            else {
+                // Add number to total
+                total = total + num;
             }
         }
+
+        // Print the total sum
         System.out.println(total);
     }
 }
