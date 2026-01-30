@@ -11,14 +11,19 @@ The person's age is ___ and cannot vote.
 */
 import java.util.Scanner;
 
-class VotingEligible{
-    public static void main(String[] args){
-        Scanner sc=new Scanner(System.in);
-        int age=sc.nextInt();
-        if(age>=18){
+class VotingEligible {
+    public static void main(String[] args) {
+
+        // Create Scanner object to take input
+        Scanner sc = new Scanner(System.in);
+
+        // Read age of the person
+        int age = sc.nextInt();
+
+        // Check voting eligibility
+        if (age >= 18) {
             System.out.println("The person can vote");
-        }
-        else{
+        } else {
             System.out.println("The person can not vote");
         }
     }
