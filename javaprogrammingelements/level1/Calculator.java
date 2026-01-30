@@ -6,18 +6,26 @@ Perform Arithmetic Operations of addition, subtraction, multiplication and divis
 */
 import java.util.Scanner;
 
-class Calculator{
-    public static void main(String[] args){
-        Scanner sc=new Scanner(System.in);
-        int number1=sc.nextInt();
-        int number2=sc.nextInt();
+class Calculator {
+    public static void main(String[] args) {
+
+        // Creating scanner object
+        Scanner sc = new Scanner(System.in);
         
-        int addition=number1+number2;
-        int subtraction=number1-number2;
+        // Read two integer numbers
+        int number1 = sc.nextInt();
+        int number2 = sc.nextInt();
         
-        int multiplication=number1*number2;
-        int division=number1/number2;
+        // Perform arithmetic operations
+        int addition = number1 + number2;
+        int subtraction = number1 - number2;
+        int multiplication = number1 * number2;
+        int division = number1 / number2;
         
-        System.out.printf("The addition, subtraction, multiplication and division value of 2 numbers %d and %d is %d, %d, %d, and %d",number1,number2,addition,subtraction,multiplication,division);
+        // Display results of all operations
+        System.out.printf(
+            "The addition, subtraction, multiplication and division value of 2 numbers %d and %d is %d, %d, %d, and %d",
+            number1, number2, addition, subtraction, multiplication, division
+        );
     }
 }
