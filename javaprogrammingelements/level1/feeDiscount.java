@@ -10,15 +10,28 @@ O/P => The discount amount is INR ___ and final discounted fee is INR ___
 */
 import java.util.Scanner;
 
-class feeDiscount{
-    public static void main(String[] args){
-        Scanner sc=new Scanner(System.in);
-        int Fee=sc.nextInt();
-        int discount=sc.nextInt();
+class feeDiscount {
+    public static void main(String[] args) {
+
+        // Create Scanner object to take input
+        Scanner sc = new Scanner(System.in);
+
+        // Read original fee amount
+        int Fee = sc.nextInt();
+
+        // Read discount value (not directly used)
+        int discount = sc.nextInt();
         
-        double disAmount=(Fee*10)/100.0;
-        double currFee=Fee-disAmount;
+        // Calculate discount amount (10% of fee)
+        double disAmount = (Fee * 10) / 100.0;
+
+        // Calculate final fee after discount
+        double currFee = Fee - disAmount;
         
-        System.out.println("The discount amount is INR "+disAmount+" and final discounted fee is INR "+currFee);
+        // Display discount amount and final fee
+        System.out.println(
+            "The discount amount is INR " + disAmount +
+            " and final discounted fee is INR " + currFee
+        );
     }
 }
