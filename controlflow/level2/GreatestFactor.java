@@ -10,11 +10,17 @@ import java.util.Scanner;
 
 class GreatestFactor {
     public static void main(String[] args) {
+
+        // Create Scanner object to take input
         Scanner sc = new Scanner(System.in);
 
+        // Read the number
         int number = sc.nextInt();
+
+        // Variable to store the greatest factor other than the number itself
         int greatestFactor = 1;
 
+        // Find the greatest factor by checking from number-1 downwards
         for (int i = number - 1; i >= 1; i--) {
             if (number % i == 0) {
                 greatestFactor = i;
@@ -22,6 +28,7 @@ class GreatestFactor {
             }
         }
 
+        // Display the result
         System.out.println(
             "The greatest factor of " + number + " besides itself is " + greatestFactor
         );
