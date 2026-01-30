@@ -15,6 +15,7 @@ import java.util.Scanner;
 
 class LineAndDistance {
 
+    // Method to calculate Euclidean distance between two points
     public static double findDistance(double x1, double y1, double x2, double y2) {
         return Math.sqrt(
                 Math.pow(x2 - x1, 2) +
@@ -22,6 +23,7 @@ class LineAndDistance {
         );
     }
 
+    // Method to find equation of a line (slope and intercept)
     public static double[] findLineEquation(double x1, double y1, double x2, double y2) {
         double m = (y2 - y1) / (x2 - x1);
         double b = y1 - m * x1;
@@ -30,19 +32,26 @@ class LineAndDistance {
 
     public static void main(String[] args) {
 
+        // Create Scanner object to take input
         Scanner sc = new Scanner(System.in);
 
+        // Read coordinates of two points
         double x1 = sc.nextDouble();
         double y1 = sc.nextDouble();
         double x2 = sc.nextDouble();
         double y2 = sc.nextDouble();
 
+        // Calculate distance between the two points
         double distance = findDistance(x1, y1, x2, y2);
+
+        // Calculate slope and intercept of the line
         double[] line = findLineEquation(x1, y1, x2, y2);
 
+        // Display distance and line equation
         System.out.println("Euclidean Distance: " + distance);
         System.out.println("Equation of line: y = " + line[0] + "x + " + line[1]);
 
+        // Close the Scanner
         sc.close();
     }
 }
