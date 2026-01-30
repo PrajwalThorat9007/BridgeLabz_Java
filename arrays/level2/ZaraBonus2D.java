@@ -12,16 +12,22 @@ import java.util.Scanner;
 
 class ZaraBonus2D {
     public static void main(String[] args) {
+
+        // Create Scanner object to take input
         Scanner sc = new Scanner(System.in);
 
+        // Total number of employees
         int employees = 10;
+
+        // 2D array to store salary, years of service, bonus, and new salary
         double[][] data = new double[employees][4];
 
+        // Variables to store total values
         double totalBonus = 0;
         double totalOldSalary = 0;
         double totalNewSalary = 0;
 
-        // Input salary and years of service
+        // Input salary and years of service for each employee
         for (int i = 0; i < employees; i++) {
             System.out.println("Enter salary for employee " + (i + 1));
             data[i][0] = sc.nextDouble();
@@ -29,32 +35,23 @@ class ZaraBonus2D {
             System.out.println("Enter years of service for employee " + (i + 1));
             data[i][1] = sc.nextDouble();
 
-            // Validation
+            // Validate salary and years of service
             if (data[i][0] <= 0 || data[i][1] < 0) {
                 System.out.println("Invalid input. Please enter again.");
                 i--; // re-enter for same employee
             }
         }
 
-        // Calculate bonus and new salary
+        // Calculate bonus and new salary for each employee
         for (int i = 0; i < employees; i++) {
 
+            // Assign bonus based on years of service
             if (data[i][1] > 5) {
                 data[i][2] = data[i][0] * 0.05; // 5% bonus
             } else {
                 data[i][2] = data[i][0] * 0.02; // 2% bonus
             }
 
-            data[i][3] = data[i][0] + data[i][2]; // new salary
+            // Calculate new salary
+            data[i][3] = data[i][0]
 
-            totalOldSalary += data[i][0];
-            totalBonus += data[i][2];
-            totalNewSalary += data[i][3];
-        }
-
-        // Output
-        System.out.println("Total Old Salary = " + totalOldSalary);
-        System.out.println("Total Bonus Paid = " + totalBonus);
-        System.out.println("Total New Salary = " + totalNewSalary);
-    }
-}
