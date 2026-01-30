@@ -9,10 +9,14 @@ import java.util.Scanner;
 
 class RocketLaunch {
     public static void main(String[] args) {
+
+        // Create Scanner object to take input
         Scanner sc = new Scanner(System.in);
 
+        // Read the starting counter value
         int counter = sc.nextInt();
 
+        // Countdown until launch
         while (counter >= 1) {
             System.out.println(counter);
             counter--;
