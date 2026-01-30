@@ -11,14 +11,23 @@ import java.util.Scanner;
 
 class ChocolateDistribution {
     public static void main(String[] args) {
+
+        // Create Scanner object to take input
         Scanner sc = new Scanner(System.in);
 
+        // Read total number of chocolates
         int chocolates = sc.nextInt();
+
+        // Read number of children
         int children = sc.nextInt();
 
+        // Calculate chocolates each child gets
         int eachChildGets = chocolates / children;
+
+        // Calculate remaining chocolates
         int remaining = chocolates % children;
 
+        // Display distribution result
         System.out.println(
             "Each child gets " + eachChildGets +
             " chocolates and remaining chocolates are " + remaining
