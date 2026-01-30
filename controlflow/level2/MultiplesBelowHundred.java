@@ -10,10 +10,14 @@ import java.util.Scanner;
 
 class MultiplesBelowHundred {
     public static void main(String[] args) {
+
+        // Create Scanner object to take input
         Scanner sc = new Scanner(System.in);
 
+        // Read the number
         int number = sc.nextInt();
 
+        // Print multiples of the given number from 100 down to 1
         for (int i = 100; i >= 1; i--) {
             if (i % number == 0) {
                 System.out.println(i);
