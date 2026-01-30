@@ -8,13 +8,25 @@ O/P => The total purchase price is INR ___ if the quantity ___ and unit price is
 
 import java.util.Scanner;
 
-class puchasePrice{
-    public static void main(String[] args){
-        Scanner sc=new Scanner(System.in);
-        int unitPrice=sc.nextInt();
-        int quantity=sc.nextInt();
+class puchasePrice {
+    public static void main(String[] args) {
+
+        // Create Scanner object to take input
+        Scanner sc = new Scanner(System.in);
+
+        // Read unit price of the item
+        int unitPrice = sc.nextInt();
+
+        // Read quantity of items
+        int quantity = sc.nextInt();
         
-        int total=unitPrice*quantity;
-        System.out.printf("The total purchase price is INR %d if the quantity %d and unit price is INR %d",total,quantity,unitPrice);
-        }
+        // Calculate total purchase price
+        int total = unitPrice * quantity;
+
+        // Display the total purchase price
+        System.out.printf(
+            "The total purchase price is INR %d if the quantity %d and unit price is INR %d",
+            total, quantity, unitPrice
+        );
+    }
 }
