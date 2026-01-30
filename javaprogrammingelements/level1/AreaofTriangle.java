@@ -8,10 +8,14 @@ import java.util.Scanner;
 
 class AreaOfTriangle{
     public static void main(String[] args){
+        //creating scanner object
         Scanner sc=new Scanner(System.in);
+
+        //initialising variables
         int height=sc.nextInt();
         int base=sc.nextInt();
-        
+
+        //calculating area
         double Area=(height*base)/2.0;
         System.out.println(Area);
     }
