@@ -10,16 +10,17 @@ class FizzBuzzArray {
     public static void main(String[] args) {
         Scanner sc = new Scanner(System.in);
 
-        int number = sc.nextInt();
+        int number = sc.nextInt();   // Input range limit
 
+        // Validate input
         if (number <= 0) {
             System.out.println("Please enter a positive integer");
             return;
         }
 
-        String[] result = new String[number];
+        String[] result = new String[number]; // Array to store FizzBuzz results
 
-        // Store results in array
+        // Store FizzBuzz values in array
         for (int i = 1; i <= number; i++) {
             if (i % 3 == 0 && i % 5 == 0) {
                 result[i - 1] = "FizzBuzz";
@@ -32,9 +33,10 @@ class FizzBuzzArray {
             }
         }
 
-        // Print array with position
+        // Print each array element with its position
         for (int i = 0; i < number; i++) {
             System.out.println("Position " + (i + 1) + " = " + result[i]);
         }
     }
 }
+
