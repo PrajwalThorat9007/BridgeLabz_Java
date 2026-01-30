@@ -6,14 +6,25 @@ Use Division Operator to find the Quantity of pens
 I/P => NONE
 O/P => The Pen Per Student is ___ and the remaining pen not distributed is ___
 */
-class DividePen{
-    public static void main(String[] args){
-        int noPen=13;
-        int noStudent=3;
+class DividePen {
+    public static void main(String[] args) {
+
+        // Total number of pens
+        int noPen = 13;
+
+        // Total number of students
+        int noStudent = 3;
         
-        int remainning = noPen%noStudent;
-        int each=noPen/noStudent;
+        // Calculate remaining pens after equal distribution
+        int remainning = noPen % noStudent;
+
+        // Calculate pens each student gets
+        int each = noPen / noStudent;
         
-        System.out.println("The Pen Per Student is "+each+" and the remaining pen not distributed is "+remainning);
+        // Display distribution result
+        System.out.println(
+            "The Pen Per Student is " + each +
+            " and the remaining pen not distributed is " + remainning
+        );
     }
 }
