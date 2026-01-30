@@ -14,27 +14,35 @@ class FactorsArray {
     public static void main(String[] args) {
         Scanner sc = new Scanner(System.in);
 
-        int number = sc.nextInt();
+        // Input number
+        int number = sc.nextInt();   
 
-        int maxFactor = 10;
+        // Initial array size
+        int maxFactor = 10;          
         int[] factors = new int[maxFactor];
-        int index = 0;
+        // Tracks number of factors stored
+        int index = 0;               
 
+        // Check if i is a factor
         for (int i = 1; i <= number; i++) {
-            if (number % i == 0) {
+            if (number % i == 0) {   
 
+                // Resize array when capacity is full
                 if (index == maxFactor) {
                     maxFactor = maxFactor * 2;
                     int[] temp = new int[maxFactor];
 
+                    // Copy existing factors to new array
                     for (int j = 0; j < index; j++) {
                         temp[j] = factors[j];
                     }
 
-                    factors = temp;
+                    // Update reference to resized array
+                    factors = temp; 
                 }
 
-                factors[index] = i;
+                // Store factor
+                factors[index] = i; 
                 index++;
             }
         }
@@ -45,3 +53,4 @@ class FactorsArray {
         }
     }
 }
+
