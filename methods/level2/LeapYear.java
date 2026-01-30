@@ -8,6 +8,7 @@ import java.util.Scanner;
 
 class LeapYear {
 
+    // Method to check whether a year is a leap year
     public static boolean isLeapYear(int year) {
         if (year % 400 == 0) {
             return true;
@@ -20,21 +21,26 @@ class LeapYear {
 
     public static void main(String[] args) {
 
+        // Create Scanner object to take input
         Scanner sc = new Scanner(System.in);
 
+        // Read the year
         int year = sc.nextInt();
 
+        // Validate year based on Gregorian calendar
         if (year < 1582) {
             System.out.println("Year should be greater than or equal to 1582");
             return;
         }
 
+        // Check and display leap year result
         if (isLeapYear(year)) {
             System.out.println("Year is a Leap Year");
         } else {
             System.out.println("Year is NOT a Leap Year");
         }
 
+        // Close the Scanner
         sc.close();
     }
 }
