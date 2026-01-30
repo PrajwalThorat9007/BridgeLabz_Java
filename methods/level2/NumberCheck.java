@@ -12,14 +12,17 @@ import java.util.Scanner;
 
 class NumberCheck {
 
+    // Method to check if number is positive
     public static boolean isPositive(int number) {
         return number >= 0;
     }
 
+    // Method to check if number is even
     public static boolean isEven(int number) {
         return number % 2 == 0;
     }
 
+    // Method to compare two numbers
     public static int compare(int number1, int number2) {
         if (number1 > number2) {
             return 1;
@@ -32,10 +35,13 @@ class NumberCheck {
 
     public static void main(String[] args) {
 
+        // Create Scanner object to take input
         Scanner sc = new Scanner(System.in);
 
+        // Array to store 5 numbers
         int[] numbers = new int[5];
 
+        // Read numbers and check their nature
         for (int i = 0; i < numbers.length; i++) {
             numbers[i] = sc.nextInt();
 
@@ -50,8 +56,10 @@ class NumberCheck {
             }
         }
 
+        // Compare first and last elements of the array
         int result = compare(numbers[0], numbers[numbers.length - 1]);
 
+        // Display comparison result
         if (result == 1) {
             System.out.println("First element is greater than last element");
         } else if (result == 0) {
@@ -60,6 +68,8 @@ class NumberCheck {
             System.out.println("First element is less than last element");
         }
 
+        // Close the Scanner
         sc.close();
     }
 }
+
