@@ -8,30 +8,44 @@ Note: For looping through the 2D array, you will need Nested for loop, Outer for
 */
 import java.util.Scanner;
 
-class TwoDArray{
-    public static void main(String[] args){
-        Scanner sc=new Scanner(System.in);
+class TwoDArray {
+    public static void main(String[] args) {
+
+        // Create Scanner object to take input
+        Scanner sc = new Scanner(System.in);
         
-        int row=sc.nextInt();
-        int col=sc.nextInt();
+        // Read number of rows and columns
+        int row = sc.nextInt();
+        int col = sc.nextInt();
         
-        int[][] arr2D=new int[row][col];
+        // Declare 2D array with given dimensions
+        int[][] arr2D = new int[row][col];
         
-        for(int i=0;i<row;i++){
-            for(int j=0;j<col;j++){
-                arr2D[i][j]=sc.nextInt();
+        // Read elements into 2D array
+        for (int i = 0; i < row; i++) {
+            for (int j = 0; j < col; j++) {
+                arr2D[i][j] = sc.nextInt();
             }
         }
-        int[] arr=new int[row*col];
-        int index=0;
-        for(int i=0;i<row;i++){
-            for(int j=0;j<col;j++){
-                arr[index]=arr2D[i][j];
+
+        // Create 1D array to store elements of 2D array
+        int[] arr = new int[row * col];
+
+        // Index to track position in 1D array
+        int index = 0;
+
+        // Convert 2D array into 1D array
+        for (int i = 0; i < row; i++) {
+            for (int j = 0; j < col; j++) {
+                arr[index] = arr2D[i][j];
                 index++;
             }
         }
-        for(int i=0;i<arr.length;i++){
+
+        // Print elements of the 1D array
+        for (int i = 0; i < arr.length; i++) {
             System.out.println(arr[i]);
         }
     }
 }
+
