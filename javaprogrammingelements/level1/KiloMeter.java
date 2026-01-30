@@ -10,13 +10,21 @@ O/P => The total miles is ___ mile for the given ___ km
 */
 import java.util.Scanner;
 
-class KiloMeter{
-    public static void main(String[] args){
-        Scanner sc=new Scanner(System.in);
-        double km=sc.nextInt();
-        double mile=km*1.6;
+class KiloMeter {
+    public static void main(String[] args) {
+
+        // Create Scanner object to take input
+        Scanner sc = new Scanner(System.in);
+
+        // Read distance in kilometers
+        double km = sc.nextInt();
+
+        // Convert kilometers to miles
+        double mile = km * 1.6;
         
-        System.out.println("The total miles is "+mile+" mile for the given "+km+" km");
-        
+        // Display the converted distance
+        System.out.println(
+            "The total miles is " + mile + " mile for the given " + km + " km"
+        );
     }
 }
