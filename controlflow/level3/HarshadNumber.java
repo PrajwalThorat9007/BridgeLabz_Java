@@ -15,24 +15,34 @@ import java.util.Scanner;
 class HarshadNumber {
     public static void main(String[] args) {
 
+        // Create Scanner object to take input
         Scanner sc = new Scanner(System.in);
 
+        // Read the number
         int number = sc.nextInt();
+
+        // Store original number for divisibility check
         int originalNumber = number;
+
+        // Variable to store sum of digits
         int sum = 0;
 
+        // Calculate sum of digits
         while (number != 0) {
             int digit = number % 10;
             sum = sum + digit;
             number = number / 10;
         }
 
+        // Check whether the number is a Harshad number
         if (originalNumber % sum == 0) {
             System.out.println("Harshad Number");
         } else {
             System.out.println("Not a Harshad Number");
         }
 
+        // Close the Scanner
         sc.close();
     }
 }
+
