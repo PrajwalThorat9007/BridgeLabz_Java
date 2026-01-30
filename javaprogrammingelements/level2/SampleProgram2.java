@@ -12,23 +12,38 @@ import java.util.Scanner;
 
 class SampleProgram2 {
     public static void main(String[] args) {
+
+        // Create Scanner object to take input
         Scanner sc = new Scanner(System.in);
 
+        // Read personal and travel details
         String name = sc.nextLine();
         String fromCity = sc.nextLine();
         String viaCity = sc.nextLine();
         String toCity = sc.nextLine();
 
+        // Read distances between cities
         double fromToVia = sc.nextDouble();
         double viaToFinalCity = sc.nextDouble();
 
+        // Read total time taken for the journey
         double timeTaken = sc.nextDouble();
 
+        // Calculate total distance traveled
         double totalDistance = fromToVia + viaToFinalCity;
+
+        // Calculate average speed
         double averageSpeed = totalDistance / timeTaken;
 
+        // Display journey and speed details
         System.out.println(
-            "Name: " + name +"\nFrom: " + fromCity +"\nVia: " + viaCity +"\nTo: " + toCity +"\nTotal Distance: " + totalDistance + " miles" +"\nTime Taken: " + timeTaken + " hours" +"\nAverage Speed: " + averageSpeed + " miles/hour"
+            "Name: " + name +
+            "\nFrom: " + fromCity +
+            "\nVia: " + viaCity +
+            "\nTo: " + toCity +
+            "\nTotal Distance: " + totalDistance + " miles" +
+            "\nTime Taken: " + timeTaken + " hours" +
+            "\nAverage Speed: " + averageSpeed + " miles/hour"
         );
     }
 }
