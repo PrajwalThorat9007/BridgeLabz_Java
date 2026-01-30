@@ -11,14 +11,24 @@ import java.util.Scanner;
 
 class TotalIncome {
     public static void main(String[] args) {
+
+        // Create Scanner object to take input
         Scanner sc = new Scanner(System.in);
 
+        // Read salary amount
         double salary = sc.nextDouble();
+
+        // Read bonus amount
         double bonus = sc.nextDouble();
+
+        // Calculate total income
         double totalIncome = salary + bonus;
 
+        // Display salary, bonus, and total income
         System.out.println(
-            "The salary is INR " + salary +" and bonus is INR " + bonus +". Hence Total Income is INR " + totalIncome
+            "The salary is INR " + salary +
+            " and bonus is INR " + bonus +
+            ". Hence Total Income is INR " + totalIncome
         );
     }
 }
