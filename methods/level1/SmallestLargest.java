@@ -6,35 +6,47 @@ public static int[] findSmallestAndLargest(int number1, int number2, int number3
  */
 import java.util.Scanner;
 
-class SmallestLargest{
-    public static int[] findSmallestAndLargest(int number1,int number2,int number3){
-        int smallest=number1;
-        int largest=number1;
+class SmallestLargest {
+
+    // Method to find smallest and largest among three numbers
+    public static int[] findSmallestAndLargest(int number1, int number2, int number3) {
+        int smallest = number1;
+        int largest = number1;
         
-        if(number2<smallest){
-            smallest=number2;
+        // Compare to find smallest number
+        if (number2 < smallest) {
+            smallest = number2;
         }
-        if(number3<smallest){
-            smallest=number3;
+        if (number3 < smallest) {
+            smallest = number3;
         }
-        if(number2>largest){
-            largest=number2;
+
+        // Compare to find largest number
+        if (number2 > largest) {
+            largest = number2;
         }
-        if(number3>largest){
-            largest=number3;
+        if (number3 > largest) {
+            largest = number3;
         }
-        return new int[] {smallest,largest};
+
+        return new int[] { smallest, largest };
     }
-    public static void main(String[] args){
-        Scanner sc=new Scanner(System.in);
+
+    public static void main(String[] args) {
+
+        // Create Scanner object to take input
+        Scanner sc = new Scanner(System.in);
         
-        int num1=sc.nextInt();
-        int num2=sc.nextInt();
-        int num3=sc.nextInt();
+        // Read three integers
+        int num1 = sc.nextInt();
+        int num2 = sc.nextInt();
+        int num3 = sc.nextInt();
         
-        int[] result=findSmallestAndLargest(num1,num2,num3);
+        // Call method to find smallest and largest
+        int[] result = findSmallestAndLargest(num1, num2, num3);
         
-        System.out.println("Smallest number is "+ result[0]);
-        System.out.println("Largest number is "+ result[1]);
+        // Display smallest and largest values
+        System.out.println("Smallest number is " + result[0]);
+        System.out.println("Largest number is " + result[1]);
     }
 }
