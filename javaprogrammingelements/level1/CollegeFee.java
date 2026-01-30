@@ -7,12 +7,23 @@ Compute discount and assign it to the discount variable.
 Compute and print the fee you have to pay by subtracting the discount from the fee.
 O/P => The discount amount is INR ___ and final discounted fee is INR ___x
 */
-class CollgeFee{
-    public static void main(String[] args){
-        int fee=125000;
-        int discount=(fee*10)/100;
-        int finalFee=fee-discount;
+class CollgeFee {
+    public static void main(String[] args) {
+
+        // Original college fee amount
+        int fee = 125000;
+
+        // Calculate 10% discount on the fee
+        int discount = (fee * 10) / 100;
+
+        // Calculate final fee after discount
+        int finalFee = fee - discount;
         
-        System.out.println(" The discount amount is INR "+discount+" and final discounted fee is INR "+finalFee);
+        // Display discount and final fee
+        System.out.println(
+            " The discount amount is INR " + discount +
+            " and final discounted fee is INR " + finalFee
+        );
     }
 }
+
