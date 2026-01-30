@@ -17,6 +17,7 @@ import java.util.Scanner;
 
 class CalendarDisplay {
 
+    // Method to return month name based on month number
     public static String getMonthName(int month) {
         String[] months = {
             "January", "February", "March", "April",
@@ -26,12 +27,14 @@ class CalendarDisplay {
         return months[month - 1];
     }
 
+    // Method to check whether a year is a leap year
     public static boolean isLeapYear(int year) {
         if (year % 400 == 0) return true;
         if (year % 100 == 0) return false;
         return year % 4 == 0;
     }
 
+    // Method to get number of days in a month
     public static int getDaysInMonth(int month, int year) {
         int[] days = {
             31, 28, 31, 30, 31, 30,
@@ -44,6 +47,7 @@ class CalendarDisplay {
         return days[month - 1];
     }
 
+    // Method to calculate the first day of the month
     public static int getFirstDayOfMonth(int month, int year) {
         int d = 1;
         int y0 = year - (14 - month) / 12;
@@ -55,22 +59,28 @@ class CalendarDisplay {
 
     public static void main(String[] args) {
 
+        // Create Scanner object to take input
         Scanner sc = new Scanner(System.in);
 
+        // Read month and year
         int month = sc.nextInt();
         int year = sc.nextInt();
 
+        // Get month name, total days, and first day of the month
         String monthName = getMonthName(month);
         int daysInMonth = getDaysInMonth(month, year);
         int firstDay = getFirstDayOfMonth(month, year);
 
+        // Print calendar header
         System.out.println("     " + monthName + " " + year);
         System.out.println("Sun Mon Tue Wed Thu Fri Sat");
 
+        // Print initial spaces before the first day
         for (int i = 0; i < firstDay; i++) {
             System.out.print("    ");
         }
 
+        // Print all days of the month in calendar format
         for (int day = 1; day <= daysInMonth; day++) {
             System.out.printf("%3d ", day);
 
@@ -79,7 +89,10 @@ class CalendarDisplay {
             }
         }
 
+        // Move to next line after calendar
         System.out.println();
+
+        // Close the Scanner
         sc.close();
     }
 }
