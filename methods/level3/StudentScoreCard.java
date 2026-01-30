@@ -11,6 +11,7 @@ import java.util.Scanner;
 
 class StudentScoreCard {
 
+    // Method to generate random PCM scores for given number of students
     public static int[][] generatePCMScores(int students) {
         int[][] scores = new int[students][3];
 
@@ -22,6 +23,7 @@ class StudentScoreCard {
         return scores;
     }
 
+    // Method to calculate total, average, and percentage
     public static double[][] calculateResults(int[][] scores) {
         double[][] result = new double[scores.length][3];
 
@@ -37,6 +39,7 @@ class StudentScoreCard {
         return result;
     }
 
+    // Method to display the scorecard in tabular format
     public static void displayScoreCard(int[][] scores, double[][] result) {
 
         System.out.println("Stu\tPhysics\tChemistry\tMaths\tTotal\tAverage\tPercentage");
@@ -56,14 +59,19 @@ class StudentScoreCard {
 
     public static void main(String[] args) {
 
+        // Create Scanner object to take input
         Scanner sc = new Scanner(System.in);
 
+        // Read number of students
         int students = sc.nextInt();
 
+        // Generate scores, calculate results, and display scorecard
         int[][] scores = generatePCMScores(students);
         double[][] result = calculateResults(scores);
         displayScoreCard(scores, result);
 
+        // Close the Scanner
         sc.close();
     }
 }
+
