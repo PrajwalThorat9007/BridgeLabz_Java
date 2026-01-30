@@ -11,9 +11,12 @@ import java.util.Scanner;
 class Factorial{
     public static void main(String[] args){
         Scanner sc=new Scanner(System.in);
+
+        //declaring variables
         int num=sc.nextInt();
         int mul=1;
-        
+
+        //finding factorial using while loop
         while(num!=0){
             mul=mul*num;
             num--;
