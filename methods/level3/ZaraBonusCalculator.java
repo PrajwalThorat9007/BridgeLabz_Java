@@ -9,6 +9,7 @@ Write a Method to Calculate the sum of the Old Salary, the Sum of the New Salary
  */
 class ZaraBonusCalculator {
 
+    // Method to generate random salary and years of service for employees
     public static double[][] generateEmployeeData() {
         double[][] data = new double[10][2];
 
@@ -19,6 +20,7 @@ class ZaraBonusCalculator {
         return data;
     }
 
+    // Method to calculate bonus and new salary based on years of service
     public static double[][] calculateBonusAndNewSalary(double[][] data) {
         double[][] result = new double[10][2];
 
@@ -39,36 +41,10 @@ class ZaraBonusCalculator {
         return result;
     }
 
+    // Method to display employee salary, bonus, and total summary
     public static void displaySummary(double[][] data, double[][] result) {
         double totalOldSalary = 0;
         double totalNewSalary = 0;
         double totalBonus = 0;
 
-        System.out.println("Emp\tOldSalary\tYears\tBonus\t\tNewSalary");
-
-        for (int i = 0; i < 10; i++) {
-            double oldSalary = data[i][0];
-            int years = (int) data[i][1];
-            double bonus = result[i][0];
-            double newSalary = result[i][1];
-
-            totalOldSalary += oldSalary;
-            totalBonus += bonus;
-            totalNewSalary += newSalary;
-
-            System.out.printf("%d\t%.2f\t%d\t%.2f\t%.2f\n",
-                    (i + 1), oldSalary, years, bonus, newSalary);
-        }
-
-        System.out.println("-------------------------------------------------------------");
-        System.out.printf("TOTAL\t%.2f\t\t\t%.2f\t%.2f\n",
-                totalOldSalary, totalBonus, totalNewSalary);
-    }
-
-    public static void main(String[] args) {
-
-        double[][] employeeData = generateEmployeeData();
-        double[][] bonusData = calculateBonusAndNewSalary(employeeData);
-        displaySummary(employeeData, bonusData);
-    }
-}
+        System.out.println("Emp\tOldSalary\tYears\tBonus\t\tNewSalary"
