@@ -6,12 +6,22 @@ O/P => The length of the side is ___ whose perimeter is ____
 */
 import java.util.Scanner;
 
-class SideOfSquare{
-    public static void main(String[] args){
-        Scanner sc=new Scanner(System.in);
-        int parameter=sc.nextInt();
+class SideOfSquare {
+    public static void main(String[] args) {
+
+        // Create Scanner object to take input
+        Scanner sc = new Scanner(System.in);
+
+        // Read the perimeter of the square
+        int parameter = sc.nextInt();
         
-        int side=parameter/4;
-        System.out.printf("The length of the side is %d whose perimeter is %d",side,parameter);
+        // Calculate side length of the square
+        int side = parameter / 4;
+
+        // Display the side length and given perimeter
+        System.out.printf(
+            "The length of the side is %d whose perimeter is %d",
+            side, parameter
+        );
     }
 }
