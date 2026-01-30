@@ -10,6 +10,7 @@ import java.util.Random;
 
 class MatrixOperations {
 
+    // Method to create a matrix with random values between 1 and 9
     public static int[][] createRandomMatrix(int rows, int cols) {
         int[][] matrix = new int[rows][cols];
         Random rand = new Random();
@@ -22,6 +23,7 @@ class MatrixOperations {
         return matrix;
     }
 
+    // Method to add two matrices
     public static int[][] addMatrices(int[][] a, int[][] b) {
         int[][] result = new int[a.length][a[0].length];
 
@@ -33,6 +35,7 @@ class MatrixOperations {
         return result;
     }
 
+    // Method to subtract matrix b from matrix a
     public static int[][] subtractMatrices(int[][] a, int[][] b) {
         int[][] result = new int[a.length][a[0].length];
 
@@ -44,6 +47,7 @@ class MatrixOperations {
         return result;
     }
 
+    // Method to multiply two matrices
     public static int[][] multiplyMatrices(int[][] a, int[][] b) {
         int[][] result = new int[a.length][b[0].length];
 
@@ -57,6 +61,7 @@ class MatrixOperations {
         return result;
     }
 
+    // Method to find transpose of a matrix
     public static int[][] transposeMatrix(int[][] matrix) {
         int[][] transpose = new int[matrix[0].length][matrix.length];
 
@@ -68,10 +73,12 @@ class MatrixOperations {
         return transpose;
     }
 
+    // Method to find determinant of a 2x2 matrix
     public static int findDeterminant2x2(int[][] m) {
         return (m[0][0] * m[1][1]) - (m[0][1] * m[1][0]);
     }
 
+    // Method to find inverse of a 2x2 matrix
     public static double[][] inverse2x2(int[][] m) {
         int det = findDeterminant2x2(m);
         if (det == 0) return null;
@@ -85,6 +92,7 @@ class MatrixOperations {
         return inv;
     }
 
+    // Method to print integer matrix
     public static void printMatrix(int[][] matrix) {
         for (int[] row : matrix) {
             for (int val : row) {
@@ -94,6 +102,7 @@ class MatrixOperations {
         }
     }
 
+    // Method to print double matrix
     public static void printMatrixDouble(double[][] matrix) {
         for (double[] row : matrix) {
             for (double val : row) {
@@ -105,30 +114,38 @@ class MatrixOperations {
 
     public static void main(String[] args) {
 
+        // Create two random 2x2 matrices
         int[][] A = createRandomMatrix(2, 2);
         int[][] B = createRandomMatrix(2, 2);
 
+        // Display matrices
         System.out.println("Matrix A:");
         printMatrix(A);
 
         System.out.println("\nMatrix B:");
         printMatrix(B);
 
+        // Perform and display matrix addition
         System.out.println("\nAddition:");
         printMatrix(addMatrices(A, B));
 
+        // Perform and display matrix subtraction
         System.out.println("\nSubtraction:");
         printMatrix(subtractMatrices(A, B));
 
+        // Perform and display matrix multiplication
         System.out.println("\nMultiplication:");
         printMatrix(multiplyMatrices(A, B));
 
+        // Display transpose of matrix A
         System.out.println("\nTranspose of A:");
         printMatrix(transposeMatrix(A));
 
+        // Find and display determinant of matrix A
         int det = findDeterminant2x2(A);
         System.out.println("\nDeterminant of A: " + det);
 
+        // Find and display inverse of matrix A if it exists
         double[][] inverse = inverse2x2(A);
         if (inverse != null) {
             System.out.println("\nInverse of A:");
@@ -138,3 +155,4 @@ class MatrixOperations {
         }
     }
 }
+
