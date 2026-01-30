@@ -9,16 +9,26 @@ import java.util.Scanner;
 
 class BMI {
     public static void main(String[] args) {
+
+        // Create Scanner object to take input
         Scanner sc = new Scanner(System.in);
 
+        // Read weight in kilograms
         double weight = sc.nextDouble();   // in kg
+
+        // Read height in centimeters
         double heightCm = sc.nextDouble(); // in cm
 
+        // Convert height from centimeters to meters
         double heightMeter = heightCm / 100; 
+
+        // Calculate BMI value
         double bmi = weight / (heightMeter * heightMeter);
 
+        // Display BMI
         System.out.println("BMI is " + bmi);
 
+        // Determine weight status based on BMI
         if (bmi < 18.5) {
             System.out.println("Weight Status: Underweight");
         } else if (bmi >= 18.5 && bmi < 25) {
