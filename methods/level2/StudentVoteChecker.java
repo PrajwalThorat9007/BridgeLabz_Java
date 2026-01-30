@@ -10,6 +10,7 @@ import java.util.Scanner;
 
 public class StudentVoteChecker {
 
+    // Method to check whether a student is eligible to vote
     public boolean canStudentVote(int age) {
         if (age < 0) {
             return false;
@@ -22,11 +23,16 @@ public class StudentVoteChecker {
 
     public static void main(String[] args) {
 
+        // Create Scanner object to take input
         Scanner sc = new Scanner(System.in);
+
+        // Create object of StudentVoteChecker class
         StudentVoteChecker checker = new StudentVoteChecker();
 
+        // Array to store ages of 10 students
         int[] ages = new int[10];
 
+        // Read ages and check voting eligibility
         for (int i = 0; i < ages.length; i++) {
             ages[i] = sc.nextInt();
 
@@ -37,6 +43,8 @@ public class StudentVoteChecker {
             }
         }
 
+        // Close the Scanner
         sc.close();
     }
 }
+
