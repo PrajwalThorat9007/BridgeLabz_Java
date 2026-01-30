@@ -30,4 +30,4 @@
 
 - **29-Jan-2025 (Thu):** Solved access modifier problems and learned difference betwen pubilc, private and protected members and thier respective scope in code.
 
-- **30-Jan-2025 (Fri):** Learned concept related to final and static keyword.Learned about instanceof and constructor in java.Solved qustion related to above topic.
+- **30-Jan-2025 (Fri):** Learned concept related to final and static keyword.Learned about instanceof and constructor in java.Solved questions related to above topic.
