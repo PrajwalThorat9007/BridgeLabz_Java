@@ -3,13 +3,20 @@ import java.util.Scanner;
 
 class FizzBuzz2 {
     public static void main(String[] args) {
+
+        // Create Scanner object to take input
         Scanner sc = new Scanner(System.in);
 
+        // Read the number
         int number = sc.nextInt();
 
+        // Check if the number is positive
         if (number > 0) {
+
+            // Initialize loop counter
             int i = 1;
 
+            // Apply FizzBuzz logic using while loop
             while (i <= number) {
                 if (i % 3 == 0 && i % 5 == 0) {
                     System.out.println("FizzBuzz");
@@ -23,6 +30,8 @@ class FizzBuzz2 {
                 i++;
             }
         } else {
+
+            // Display error message for invalid input
             System.out.println("Please enter a positive integer");
         }
     }
