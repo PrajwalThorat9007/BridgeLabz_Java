@@ -8,15 +8,25 @@ The loop will continue till the user enters zero and outside the loop display th
 */
 import java.util.Scanner;
 
-class TotalSum{
-    public static void main(String[] args){
-        Scanner sc=new Scanner(System.in);
-        double total=0;
-        double num=sc.nextDouble();
-        while(num!=0){
-            total=total+num;
+class TotalSum {
+    public static void main(String[] args) {
+
+        // Create Scanner object to take input
+        Scanner sc = new Scanner(System.in);
+
+        // Variable to store total sum
+        double total = 0;
+
+        // Read the number
+        double num = sc.nextDouble();
+
+        // Add numbers from given value down to 1
+        while (num != 0) {
+            total = total + num;
             num--;
         }
+
+        // Print the total sum
         System.out.println(total);
     }
 }
