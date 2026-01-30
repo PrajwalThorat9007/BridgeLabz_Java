@@ -10,10 +10,14 @@ import java.util.Scanner;
 
 class NumberCheck {
     public static void main(String[] args) {
+
+        // Create Scanner object to take input
         Scanner sc = new Scanner(System.in);
 
+        // Read the number
         int number = sc.nextInt();
 
+        // Check whether the number is positive, negative, or zero
         if (number > 0) {
             System.out.println("positive");
         } else if (number < 0) {
