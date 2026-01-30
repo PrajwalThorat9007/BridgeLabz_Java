@@ -9,9 +9,13 @@ import java.util.Scanner;
 class Factorial2{
     public static void main(String[] args){
         Scanner sc=new Scanner(System.in);
+
+        //declaring variable
         int num=sc.nextInt();
         int mul=1;
+
         
+        //finding factorial using for loop
         for(int i=num;i>0;i--){
             mul=mul*i;
             }
