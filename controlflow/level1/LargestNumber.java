@@ -11,14 +11,18 @@ import java.util.Scanner;
 class LargestNumber{
     public static void main(String[] args){
         Scanner sc=new Scanner(System.in);
+
+        //declaring input variables
         int num1=sc.nextInt();
         int num2=sc.nextInt();
         int num3=sc.nextInt();
-        
+
+        //initialising boolean variables by checking largest number
         boolean numlar1=(num1>num2)&&(num1>num3);
         boolean numlar2=(num2>num1)&&(num2>num3);
         boolean numlar3=(num3>num1)&&(num3>num1);
-        
+
+        //printing output
         System.out.println("Is the first number the largest? "+numlar1);
         System.out.println("Is the second number the largest? "+numlar2);
         System.out.println("Is the third number the largest? "+numlar3);
