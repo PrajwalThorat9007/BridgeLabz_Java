@@ -8,10 +8,14 @@ import java.util.Scanner;
 
 class MultiplicationTable {
     public static void main(String[] args) {
+
+        // Create Scanner object to take input
         Scanner sc = new Scanner(System.in);
 
+        // Read the number for multiplication table
         int number = sc.nextInt();
 
+        // Print multiplication table from 1 to 10
         for (int i = 1; i <= 10; i++) {
             System.out.println(number + " * " + i + " = " + (number * i));
         }
