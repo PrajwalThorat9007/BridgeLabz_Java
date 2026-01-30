@@ -12,18 +12,25 @@ import java.util.Scanner;
 class CountDigits {
     public static void main(String[] args) {
 
+        // Create Scanner object to take input
         Scanner sc = new Scanner(System.in);
 
+        // Read the number
         int number = sc.nextInt();
+
+        // Variable to count digits
         int count = 0;
 
+        // Count number of digits in the number
         while (number != 0) {
             number = number / 10;
             count++;
         }
 
+        // Print the digit count
         System.out.println(count);
 
+        // Close the Scanner
         sc.close();
     }
 }
