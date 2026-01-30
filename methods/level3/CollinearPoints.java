@@ -13,6 +13,7 @@ import java.util.Scanner;
 
 class CollinearPoints {
 
+    // Method to check collinearity using slope comparison
     public static boolean checkCollinearUsingSlope(
             double x1, double y1,
             double x2, double y2,
@@ -25,6 +26,7 @@ class CollinearPoints {
         return slopeAB == slopeBC && slopeBC == slopeAC;
     }
 
+    // Method to check collinearity using area of triangle
     public static boolean checkCollinearUsingArea(
             double x1, double y1,
             double x2, double y2,
@@ -41,8 +43,10 @@ class CollinearPoints {
 
     public static void main(String[] args) {
 
+        // Create Scanner object to take input
         Scanner sc = new Scanner(System.in);
 
+        // Read coordinates of three points
         double x1 = sc.nextDouble();
         double y1 = sc.nextDouble();
         double x2 = sc.nextDouble();
@@ -50,15 +54,20 @@ class CollinearPoints {
         double x3 = sc.nextDouble();
         double y3 = sc.nextDouble();
 
+        // Check collinearity using slope method
         boolean slopeResult = checkCollinearUsingSlope(x1, y1, x2, y2, x3, y3);
+
+        // Check collinearity using area method
         boolean areaResult = checkCollinearUsingArea(x1, y1, x2, y2, x3, y3);
 
+        // Display final result
         if (slopeResult && areaResult) {
             System.out.println("The given points are Collinear");
         } else {
             System.out.println("The given points are NOT Collinear");
         }
 
+        // Close the Scanner
         sc.close();
     }
 }
