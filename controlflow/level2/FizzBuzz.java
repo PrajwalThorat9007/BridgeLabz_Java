@@ -6,11 +6,17 @@ import java.util.Scanner;
 
 class FizzBuzz {
     public static void main(String[] args) {
+
+        // Create Scanner object to take input
         Scanner sc = new Scanner(System.in);
 
+        // Read the number
         int number = sc.nextInt();
 
+        // Check if the number is positive
         if (number > 0) {
+
+            // Apply FizzBuzz logic from 1 to the given number
             for (int i = 1; i <= number; i++) {
                 if (i % 3 == 0 && i % 5 == 0) {
                     System.out.println("FizzBuzz");
@@ -23,6 +29,8 @@ class FizzBuzz {
                 }
             }
         } else {
+
+            // Display error message for invalid input
             System.out.println("Please enter a positive integer");
         }
     }
