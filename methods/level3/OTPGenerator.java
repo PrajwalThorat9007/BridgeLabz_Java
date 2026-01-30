@@ -7,9 +7,8 @@ Write a method to ensure that the OTP numbers generated are unique. If unique re
  */
 class OTPGenerator {
 
-
+    // Method to generate a 6-digit OTP
     public static int generateOTP() {
-
         return (int)(Math.random() * 900000) + 100000;
     }
 
@@ -27,20 +26,24 @@ class OTPGenerator {
 
     public static void main(String[] args) {
 
+        // Array to store generated OTPs
         int[] otps = new int[10];
 
+        // Generate 10 OTPs
         for (int i = 0; i < otps.length; i++) {
             otps[i] = generateOTP();
         }
 
- 
+        // Display generated OTPs
         System.out.println("Generated OTPs:");
         for (int i = 0; i < otps.length; i++) {
             System.out.println(otps[i]);
         }
 
+        // Check whether all OTPs are unique
         boolean unique = areOTPsUnique(otps);
 
+        // Display uniqueness result
         if (unique) {
             System.out.println("All 10 OTPs are unique");
         } else {
