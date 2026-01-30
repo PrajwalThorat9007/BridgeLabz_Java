@@ -13,12 +13,17 @@ import java.util.Scanner;
 class Calculator {
     public static void main(String[] args) {
 
+        // Create Scanner object to take input
         Scanner sc = new Scanner(System.in);
 
+        // Read two numbers
         double first = sc.nextDouble();
         double second = sc.nextDouble();
+
+        // Read the operator
         String op = sc.next();
 
+        // Perform calculation based on operator
         switch (op) {
             case "+":
                 System.out.println(first + second);
@@ -33,6 +38,7 @@ class Calculator {
                 break;
 
             case "/":
+                // Check for division by zero
                 if (second != 0) {
                     System.out.println(first / second);
                 } else {
@@ -40,10 +46,12 @@ class Calculator {
                 }
                 break;
 
+            // Handle invalid operator
             default:
                 System.out.println("Invalid Operator");
         }
 
+        // Close the Scanner
         sc.close();
     }
 }
