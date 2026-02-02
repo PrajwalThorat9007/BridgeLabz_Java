@@ -6,7 +6,8 @@ Define subclasses SavingsAccount, CheckingAccount, and FixedDepositAccount, each
 Implement a method displayAccountType() in each subclass to specify the account type.
 Goal: Explore hierarchical inheritance, demonstrating how each subclass can have unique attributes while inheriting from a shared superclass.
  */
-// Superclass
+//
+package inheritance;
 class BankAccount {
     String accountNumber; // account number
     double balance; // account balance

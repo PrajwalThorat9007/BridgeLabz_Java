@@ -10,6 +10,8 @@ Use a final variable accountNumber to ensure it cannot be changed once assigned.
 Instanceof:
 Check if an account object is an instance of the BankAccount class before displaying its details.
  */
+package keywords;
+
 class BankAccount{
     static String bankName="HDFC";
     static int NoAccounts=0;

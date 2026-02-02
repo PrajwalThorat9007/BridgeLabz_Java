@@ -8,6 +8,8 @@ Demonstrate polymorphism by storing objects of different subclasses in an array 
 Goal: Understand how inheritance helps in organizing shared and unique features across subclasses and use polymorphism for dynamic method calls.
  */
 // Superclass
+
+package  inheritance;
 class Vehicle {
     int maxSpeed; // maximum speed of vehicle
     String fuelType; // fuel type

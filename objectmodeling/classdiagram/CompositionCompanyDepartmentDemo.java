@@ -6,6 +6,7 @@ Define a Company class that contains multiple Department objects.
 Define an Employee class within each Department.
 Show the composition relationship by ensuring that when a Company object is deleted, all associated Department and Employee objects are also removed.
 Goal: Understand composition by implementing a relationship where Department and Employee objects cannot exist without a Company. */
+import java.util.ArrayList;
 class Employee {
     private String empName;
 
@@ -17,7 +18,7 @@ class Employee {
         System.out.println("    Employee: " + empName);
     }
 }
-import java.util.ArrayList;
+
 
 class Department {
     private String deptName;
@@ -44,7 +45,7 @@ class Department {
         employees.clear();
     }
 }
-import java.util.ArrayList;
+
 
 class Company {
     private String companyName;

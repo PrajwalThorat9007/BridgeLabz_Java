@@ -6,6 +6,8 @@ Define subclasses Manager, Developer, and Intern with unique attributes for each
 Goal: Practice inheritance by creating subclasses with specific attributes and overriding superclass methods.
  */
 // Base class
+
+package inheritance;
 class Employee {
     String name; // employee name
     int id; // employee id

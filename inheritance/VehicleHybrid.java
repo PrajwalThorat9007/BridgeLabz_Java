@@ -7,6 +7,8 @@ Define subclasses ElectricVehicle and PetrolVehicle. PetrolVehicle should implem
 Goal: Use hybrid inheritance by having PetrolVehicle implement both Vehicle and Refuelable, demonstrating how Java interfaces allow adding multiple behaviors.
  */
 // Interface defining refueling behavior
+package inheritance;
+
 interface Refuelable {
     void refuel(); // method to be implemented
 }

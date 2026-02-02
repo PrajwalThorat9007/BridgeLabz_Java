@@ -7,6 +7,7 @@ Create a method displayInfo() to show details of the book and its author.
 Goal: Practice single inheritance by extending the base class and adding more specific details in the subclass.
  */
 // Superclass
+
 class Book {
     String title; // book title
     int publicationYear; // year of publication

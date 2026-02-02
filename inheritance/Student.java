@@ -8,6 +8,7 @@ Write methods to:
 Access and modify CGPA using public methods.
 Create a subclass PostgraduateStudent to demonstrate the use of protected members. */
 // Class representing a student
+package inheritance;
 class Student {
 
     // Public roll number accessible everywhere
