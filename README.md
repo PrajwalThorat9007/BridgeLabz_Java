@@ -34,4 +34,4 @@
 
 - **31-Jan-2026 (Sat):** Learned Inheritance and different type of inheritance.Solved question from assignment related to inheritance.
 
-- **1-Feb-2026 (Mon):** Leraned about encaplsulation and inheritance in that I leared about class extension, interface declaration and implementation.Solved few quetion from assignment.
+- **1-Feb-2026 (Mon):** Learned about encapsulation and inheritance in that I learned about class extension, interface declaration and implementation. Solved few question from assignment.
