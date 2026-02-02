@@ -33,3 +33,5 @@
 - **30-Jan-2026 (Fri):** Learned concept related to final and static keyword.Learned about instanceof and constructor in java.Solved questions related to above topic.
 
 - **31-Jan-2026 (Sat):** Learned Inheritance and different type of inheritance.Solved question from assignment related to inheritance.
+
+- **1-Feb-2026 (Mon):** Leraned about encaplsulation and inheritance in that I leared about class extension, interface declaration and implementation.Solved few quetion from assignment.
