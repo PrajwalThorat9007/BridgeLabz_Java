@@ -34,6 +34,8 @@
 
 - **31-Jan-2026 (Sat):** Learned Inheritance and different type of inheritance.Solved question from assignment related to inheritance.
 
-- **1-Feb-2026 (Mon):** Learned about encapsulation and inheritance in that I learned about class extension, interface declaration and implementation. Solved few question from assignment.
+- **2-Feb-2026 (Mon):** Learned about encapsulation and inheritance in that I learned about class extension, interface declaration and implementation. Solved few question from assignment.
 
-- **2-Feb-2026 (Tue):** Revised OOPS related concept.Studied about linked list and solved some questions from assignment.
+- **3-Feb-2026 (Tue):** Revised OOPS related concept.Studied about linked list and solved some questions from assignment.
+
+- **4-Feb-2026 (Wed):** Solved OOPS Banner problem in that I learned about string, nested loop, array and basic of hashmap.
