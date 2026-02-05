@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/BridgeLabz_Java.iml" filepath="$PROJECT_DIR$/BridgeLabz_Java.iml" />
+      <module fileurl="file://$PROJECT_DIR$/accessmodifier/accessmodifier.iml" filepath="$PROJECT_DIR$/accessmodifier/accessmodifier.iml" />
+      <module fileurl="file://$PROJECT_DIR$/classandobject/classandobject.iml" filepath="$PROJECT_DIR$/classandobject/classandobject.iml" />
+      <module fileurl="file://$PROJECT_DIR$/constructor/constructor.iml" filepath="$PROJECT_DIR$/constructor/constructor.iml" />
+      <module fileurl="file://$PROJECT_DIR$/instancevsclass/instancevsclass.iml" filepath="$PROJECT_DIR$/instancevsclass/instancevsclass.iml" />
+      <module fileurl="file://$PROJECT_DIR$/objectmodeling/objectmodeling.iml" filepath="$PROJECT_DIR$/objectmodeling/objectmodeling.iml" />
+    </modules>
+  </component>
+</project>
