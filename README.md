@@ -39,3 +39,5 @@
 - **3-Feb-2026 (Tue):** Revised OOPS related concept.Studied about linked list and solved some questions from assignment.
 
 - **4-Feb-2026 (Wed):** Solved OOPS Banner problem in that I learned about string, nested loop, array and basic of hashmap.
+
+- **5-Feb-2026 (Thu):** Attended orientation meetup with company persons.Discussed about company goals and requirments.
