@@ -1,7 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="2bfdd073-36d5-4cf8-9884-957e7f30a30e" name="Changes" comment="" />
+    <list default="true" id="2bfdd073-36d5-4cf8-9884-957e7f30a30e" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/sorting/InsertionSort.java" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -22,6 +24,9 @@
   &quot;associatedIndex&quot;: 8
 }</component>
   <component name="ProjectId" id="393qHEoMMwm1swwxYSKMgel3zTa" />
+  <component name="ProjectLevelVcsManager">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
@@ -32,6 +37,7 @@
     "Application.CompositionCompanyDepartmentDemo.executor": "Run",
     "Application.EmployeeTest (1).executor": "Run",
     "Application.EmployeeTest.executor": "Run",
+    "Application.InsertionSort.executor": "Run",
     "Application.SchoolHierarchical.executor": "Run",
     "ModuleVcsDetector.initialDetectionPerformed": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
