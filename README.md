@@ -41,3 +41,9 @@
 - **4-Feb-2026 (Wed):** Solved OOPS Banner problem in that I learned about string, nested loop, array and basic of hashmap.
 
 - **5-Feb-2026 (Thu):** Attended orientation meetup with company persons.Discussed about company goals and requirments.
+
+- **6-Feb-2026 (Fri):** Learned about linked and it's type like single, double and circular.Also studied about library function and there implementation.
+
+- **7-Feb-2026 (Sat):** Studied about stack and it functionality. Learned about how to implement stack using linkedlist and array list.
+
+- **9-Feb-2026 (Mon):** Learned different sorting algorithm likes bubble, insert, merge and quick sort. Studied about their time complexity and space complexity and how to implement using Java.
