@@ -47,3 +47,5 @@
 - **7-Feb-2026 (Sat):** Studied about stack and it functionality. Learned about how to implement stack using linkedlist and array list.
 
 - **9-Feb-2026 (Mon):** Learned different sorting algorithm likes bubble, insert, merge and quick sort. Studied about their time complexity and space complexity and how to implement using Java.
+
+-  **10-Feb-2026 (Tue):** Revised topic related to linked-list, stack, queue and hash map. Learned about set and list and their related inbuild methods.
