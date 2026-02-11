@@ -2,10 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="2bfdd073-36d5-4cf8-9884-957e7f30a30e" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/stringbuilderandstringbuffer/AppendusingStringBuffer.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/stringbuilderandstringbuffer/PerformanceTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/stringbuilderandstringbuffer/RemoveDuplicates.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/stringbuilderandstringbuffer/ReverseString.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/FileReading/PrintLine.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/FileReading/WordCount.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/FileReading/data.txt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -47,11 +46,13 @@
     "Application.InsertionSort.executor": "Run",
     "Application.MergeSort.executor": "Run",
     "Application.PerformanceTest.executor": "Run",
+    "Application.PrintLine.executor": "Run",
     "Application.QuickSort.executor": "Run",
     "Application.RemoveDuplicates.executor": "Run",
     "Application.ReverseString.executor": "Run",
     "Application.SchoolHierarchical.executor": "Run",
     "Application.SelectionSort.executor": "Run",
+    "Application.WordCount.executor": "Run",
     "ModuleVcsDetector.initialDetectionPerformed": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "RunOnceActivity.TerminalTabsStorage.copyFrom.TerminalArrangementManager.252": "true",
@@ -138,7 +139,7 @@
       <workItem from="1770626716047" duration="3319000" />
       <workItem from="1770647891762" duration="11000" />
       <workItem from="1770785874240" duration="6924000" />
-      <workItem from="1770799628134" duration="1167000" />
+      <workItem from="1770799628134" duration="3127000" />
     </task>
     <servers />
   </component>
