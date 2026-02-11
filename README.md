@@ -48,4 +48,6 @@
 
 - **9-Feb-2026 (Mon):** Learned different sorting algorithm likes bubble, insert, merge and quick sort. Studied about their time complexity and space complexity and how to implement using Java.
 
--  **10-Feb-2026 (Tue):** Revised topic related to linked-list, stack, queue and hash map. Learned about set and list and their related inbuild methods.
+- **10-Feb-2026 (Tue):** Revised topic related to linked-list, stack, queue and hash map. Learned about set and list and their related inbuild methods.
+
+- **11-Feb-2026 (Wed):** Learned about file reading in java in that I learned about class File reader and Buffered reader. Learned diff String Builder and String Buffer.
