@@ -51,3 +51,5 @@
 - **10-Feb-2026 (Tue):** Revised topic related to linked-list, stack, queue and hash map. Learned about set and list and their related inbuild methods.
 
 - **11-Feb-2026 (Wed):** Learned about file reading in java in that I learned about class File reader and Buffered reader. Learned diff String Builder and String Buffer.
+
+- **12-Feb-2026 (Thu):** Studied about InputStreamReader.
