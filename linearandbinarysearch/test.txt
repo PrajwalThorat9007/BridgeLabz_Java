@@ -1,0 +1,5 @@
+Java is powerful and Java is popular
+Learning Java Java helps build strong programming skills
+BufferedReader reads lines and BufferedReader improves performance
+This is is a simple simple test line
+Programming in Java and programming in Python
