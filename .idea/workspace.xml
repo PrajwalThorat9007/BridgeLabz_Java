@@ -1,7 +1,15 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="2bfdd073-36d5-4cf8-9884-957e7f30a30e" name="Changes" comment="" />
+    <list default="true" id="2bfdd073-36d5-4cf8-9884-957e7f30a30e" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/generics/MealPlanner.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/generics/OnlineMarketPlace.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/generics/ResumeScreening.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/generics/SmartWareHouse.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/generics/UniversityCourses.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main.java" beforeDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -26,28 +34,32 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;Application.CompositionCompanyDepartmentDemo.executor&quot;: &quot;Run&quot;,
-    &quot;Application.EmployeeTest (1).executor&quot;: &quot;Run&quot;,
-    &quot;Application.EmployeeTest.executor&quot;: &quot;Run&quot;,
-    &quot;Application.SchoolHierarchical.executor&quot;: &quot;Run&quot;,
-    &quot;ModuleVcsDetector.initialDetectionPerformed&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.TerminalTabsStorage.copyFrom.TerminalArrangementManager.252&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.git.unshallow&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.typescript.service.memoryLimit.init&quot;: &quot;true&quot;,
-    &quot;git-widget-placeholder&quot;: &quot;feature/datastructure&quot;,
-    &quot;ignore.virus.scanning.warn.message&quot;: &quot;true&quot;,
-    &quot;kotlin-language-version-configured&quot;: &quot;true&quot;,
-    &quot;last_opened_file_path&quot;: &quot;C:/BridgeLabz_Java&quot;,
-    &quot;project.structure.last.edited&quot;: &quot;Modules&quot;,
-    &quot;project.structure.proportion&quot;: &quot;0.15&quot;,
-    &quot;project.structure.side.proportion&quot;: &quot;0.2&quot;,
-    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "Application.CompositionCompanyDepartmentDemo.executor": "Run",
+    "Application.EmployeeTest (1).executor": "Run",
+    "Application.EmployeeTest.executor": "Run",
+    "Application.OnlineMarketPlace.executor": "Run",
+    "Application.ResumeScreening.executor": "Run",
+    "Application.SchoolHierarchical.executor": "Run",
+    "Application.SmartWareHouse.executor": "Run",
+    "Application.UniversityCourses.executor": "Run",
+    "ModuleVcsDetector.initialDetectionPerformed": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "RunOnceActivity.TerminalTabsStorage.copyFrom.TerminalArrangementManager.252": "true",
+    "RunOnceActivity.git.unshallow": "true",
+    "RunOnceActivity.typescript.service.memoryLimit.init": "true",
+    "git-widget-placeholder": "feature/collectionsandstreams",
+    "ignore.virus.scanning.warn.message": "true",
+    "kotlin-language-version-configured": "true",
+    "last_opened_file_path": "C:/BridgeLabz_Java",
+    "project.structure.last.edited": "Project",
+    "project.structure.proportion": "0.15",
+    "project.structure.side.proportion": "0.2",
+    "vue.rearranger.settings.migration": "true"
   }
-}</component>
-  <component name="RunManager" selected="Application.CompositionCompanyDepartmentDemo">
+}]]></component>
+  <component name="RunManager">
     <configuration name="CompositionCompanyDepartmentDemo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="CompositionCompanyDepartmentDemo" />
       <module name="objectmodeling" />
@@ -80,6 +92,17 @@
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
+    </configuration>
+    <configuration default="true" type="JetRunConfigurationType">
+      <module name="BridgeLabz_Java" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration default="true" type="KotlinStandaloneScriptRunConfigurationType">
+      <module name="BridgeLabz_Java" />
+      <option name="filePath" />
+      <method v="2" />
     </configuration>
     <recent_temporary>
       <list>
@@ -115,6 +138,9 @@
       <workItem from="1770109324653" duration="3928000" />
       <workItem from="1770180119808" duration="16000" />
       <workItem from="1770186886410" duration="769000" />
+      <workItem from="1770972709615" duration="136000" />
+      <workItem from="1770972851279" duration="130000" />
+      <workItem from="1770973011418" duration="8675000" />
     </task>
     <servers />
   </component>
