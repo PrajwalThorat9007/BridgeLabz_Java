@@ -53,3 +53,5 @@
 - **11-Feb-2026 (Wed):** Learned about file reading in java in that I learned about class File reader and Buffered reader. Learned diff String Builder and String Buffer.
 
 - **12-Feb-2026 (Thu):** Studied about InputStreamReader.
+
+- **13-Feb-2026 (Fri):** Learned about generics in java in that I learned use of upper bound,lower bound and '&' in generics. Solved questions from assignment.
