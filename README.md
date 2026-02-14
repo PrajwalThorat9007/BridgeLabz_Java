@@ -55,3 +55,5 @@
 - **12-Feb-2026 (Thu):** Studied about InputStreamReader.
 
 - **13-Feb-2026 (Fri):** Learned about generics in java in that I learned use of upper bound,lower bound and '&' in generics. Solved questions from assignment.
+
+- **14-Feb-2026 (Fri):** Learned about java collection in that I studied about list, linked list, array list, stack and dequeue and there inbuild methods, advantages and disadvantages over other collections.
