@@ -7,8 +7,7 @@ import java.util.*;
  * Given a set of petrol pumps with petrol and distance to the next pump,
  * determine the starting point for completing a circular tour.
  */
-public class CircularTourProblem {
-    
+
     /**
      * Class to represent a Petrol Pump
      */
