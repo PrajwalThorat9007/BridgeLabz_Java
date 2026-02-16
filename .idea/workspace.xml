@@ -2,7 +2,6 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="2bfdd073-36d5-4cf8-9884-957e7f30a30e" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/collection/list/ReverseList.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -32,6 +31,7 @@
   <component name="PropertiesComponent">{
   &quot;keyToString&quot;: {
     &quot;Application.CompositionCompanyDepartmentDemo.executor&quot;: &quot;Run&quot;,
+    &quot;Application.ElementFrequency.executor&quot;: &quot;Run&quot;,
     &quot;Application.EmployeeTest (1).executor&quot;: &quot;Run&quot;,
     &quot;Application.EmployeeTest.executor&quot;: &quot;Run&quot;,
     &quot;Application.OnlineMarketPlace.executor&quot;: &quot;Run&quot;,
@@ -55,7 +55,7 @@
     &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   }
 }</component>
-  <component name="RunManager">
+  <component name="RunManager" selected="Application.CompositionCompanyDepartmentDemo">
     <configuration name="CompositionCompanyDepartmentDemo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="CompositionCompanyDepartmentDemo" />
       <module name="objectmodeling" />
@@ -128,6 +128,8 @@
       <workItem from="1770973011418" duration="9445000" />
       <workItem from="1771046900282" duration="1701000" />
       <workItem from="1771059072156" duration="9000" />
+      <workItem from="1771167628449" duration="5340000" />
+      <workItem from="1771220905481" duration="5000" />
     </task>
     <servers />
   </component>
