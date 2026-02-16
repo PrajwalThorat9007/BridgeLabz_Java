@@ -56,4 +56,6 @@
 
 - **13-Feb-2026 (Fri):** Learned about generics in java in that I learned use of upper bound,lower bound and '&' in generics. Solved questions from assignment.
 
-- **14-Feb-2026 (Fri):** Learned about java collection in that I studied about list, linked list, array list, stack and dequeue and there inbuild methods, advantages and disadvantages over other collections.
+- **14-Feb-2026 (Sat):** Learned about java collection in that I studied about list, linked list, array list, stack and dequeue and there inbuild methods, advantages and disadvantages over other collections.
+
+- **15-Feb-2026 (Mon):** Learned about java collection in that I learned about set, queue and map interfaces and their implementation for different inbuild data structure. Also learned about pros and cons of different data structures over other.
