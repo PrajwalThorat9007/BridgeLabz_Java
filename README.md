@@ -58,4 +58,6 @@
 
 - **14-Feb-2026 (Sat):** Learned about java collection in that I studied about list, linked list, array list, stack and dequeue and there inbuild methods, advantages and disadvantages over other collections.
 
-- **15-Feb-2026 (Mon):** Learned about java collection in that I learned about set, queue and map interfaces and their implementation for different inbuild data structure. Also learned about pros and cons of different data structures over other.
+- **16-Feb-2026 (Mon):** Learned about java collection in that I learned about set, queue and map interfaces and their implementation for different inbuild data structure. Also learned about pros and cons of different data structures over other.
+
+- **17-Feb-2026 (Tue):** Learned about exception handling and its types. Learned how to create a custom exception class.
