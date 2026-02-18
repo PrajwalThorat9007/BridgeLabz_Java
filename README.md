@@ -61,3 +61,5 @@
 - **16-Feb-2026 (Mon):** Learned about java collection in that I learned about set, queue and map interfaces and their implementation for different inbuild data structure. Also learned about pros and cons of different data structures over other.
 
 - **17-Feb-2026 (Tue):** Learned about exception handling and its types. Learned how to create a custom exception class.
+
+- **18-Feb-2026 (Wed):** Learned about regex and revised topic from collections, generics and exception handling.
