@@ -63,3 +63,11 @@
 - **17-Feb-2026 (Tue):** Learned about exception handling and its types. Learned how to create a custom exception class.
 
 - **18-Feb-2026 (Wed):** Learned about regex and revised topic from collections, generics and exception handling.
+
+- **19-Feb-2026 (Thu):** Revised topic learned earlier.
+
+- **20-Feb-2026 (Fri):** Learned about Junit how to create test package and learned about different annotation in Junit.
+
+- **21-Feb-2026 (Sat):** Learned about different assert method in java implemented in some java questions.
+
+- **23-Feb-2026 (Mon):** Learned concept related to multi-threading, learned about how to declare thread and methods like .join(),.sleep() and yield().
