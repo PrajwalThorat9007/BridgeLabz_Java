@@ -71,3 +71,5 @@
 - **21-Feb-2026 (Sat):** Learned about different assert method in java implemented in some java questions.
 
 - **23-Feb-2026 (Mon):** Learned concept related to multi-threading, learned about how to declare thread and methods like .join(),.sleep() and yield().
+
+- **24-Feb-2026 (Tue):** Studied about synchronisation in that learn about how locking mechanism works, learn about class and object level lock. Leaned about difference between static and non static synch methods.
