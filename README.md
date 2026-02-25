@@ -73,3 +73,5 @@
 - **23-Feb-2026 (Mon):** Learned concept related to multi-threading, learned about how to declare thread and methods like .join(),.sleep() and yield().
 
 - **24-Feb-2026 (Tue):** Studied about synchronisation in that learn about how locking mechanism works, learn about class and object level lock. Leaned about difference between static and non static synch methods.
+
+- **25-Feb-2026 (Wed):** Learned about Java streams, difference between collection and stream, what is laziness principle, intermediate and terminal operations in streams.
