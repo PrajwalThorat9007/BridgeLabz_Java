@@ -75,3 +75,7 @@
 - **24-Feb-2026 (Tue):** Studied about synchronisation in that learn about how locking mechanism works, learn about class and object level lock. Leaned about difference between static and non static synch methods.
 
 - **25-Feb-2026 (Wed):** Learned about Java streams, difference between collection and stream, what is laziness principle, intermediate and terminal operations in streams.
+
+-  **26-Feb-2026 (Thu):**
+
+-  **27-Feb-2026 (Fri):** Learned about concurent package for multithreading.
