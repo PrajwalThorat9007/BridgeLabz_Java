@@ -79,3 +79,7 @@
 -  **26-Feb-2026 (Thu):**
 
 -  **27-Feb-2026 (Fri):** Learned about concurent package for multithreading.
+
+-  **28-Feb-2026 (Sat):** Revised Topics from java 8 like streams, lambda and Junit.
+
+-  **2-Mar-2026 (Mon)** Solved assignment question from lambda and completed Quantity measurment app. 
