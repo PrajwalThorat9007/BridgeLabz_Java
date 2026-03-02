@@ -2,16 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="2bfdd073-36d5-4cf8-9884-957e7f30a30e" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/junit/code/EmailValidation.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/junit/code/LastNameValidation.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/junit/code/MobileValidation.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/junit/code/PasswordValidation.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/junit/code/UserValidation.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/junit/test/EmailValidationTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/junit/test/LastNameValidationTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/junit/test/MobileValidationTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/junit/test/PasswordValidationTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/junit/test/UserValidationTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lambda/FirstName.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -42,47 +33,47 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "Application.CompositionCompanyDepartmentDemo.executor": "Run",
-    "Application.ElementFrequency.executor": "Run",
-    "Application.EmployeeTest (1).executor": "Run",
-    "Application.EmployeeTest.executor": "Run",
-    "Application.OnlineMarketPlace.executor": "Run",
-    "Application.ResumeScreening.executor": "Run",
-    "Application.ReverseList.executor": "Run",
-    "Application.SchoolHierarchical.executor": "Run",
-    "Application.SmartWareHouse.executor": "Run",
-    "Application.UniversityCourses.executor": "Run",
-    "Downloaded.Files.Path.Enabled": "false",
-    "JUnit.EmailValidationTest.executor": "Run",
-    "JUnit.LastNameValidationTest.executor": "Run",
-    "JUnit.MobileValidationTest.executor": "Run",
-    "JUnit.PasswordValidationTest.executor": "Run",
-    "JUnit.UserValidationTest.executor": "Run",
-    "ModuleVcsDetector.initialDetectionPerformed": "true",
-    "Repository.Attach.Annotations": "false",
-    "Repository.Attach.JavaDocs": "false",
-    "Repository.Attach.Sources": "false",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "RunOnceActivity.TerminalTabsStorage.copyFrom.TerminalArrangementManager.252": "true",
-    "RunOnceActivity.git.unshallow": "true",
-    "RunOnceActivity.typescript.service.memoryLimit.init": "true",
-    "com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrary": "JUnit5",
-    "com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.JUnit5": "",
-    "create.test.in.the.same.root": "true",
-    "git-widget-placeholder": "feature/collectionsandstreams",
-    "ignore.virus.scanning.warn.message": "true",
-    "kotlin-language-version-configured": "true",
-    "last_opened_file_path": "C:/BridgeLabz_Java",
-    "nodejs_package_manager_path": "npm",
-    "project.structure.last.edited": "Modules",
-    "project.structure.proportion": "0.15",
-    "project.structure.side.proportion": "0.2",
-    "settings.editor.selected.configurable": "settings.sync",
-    "vue.rearranger.settings.migration": "true"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;Application.CompositionCompanyDepartmentDemo.executor&quot;: &quot;Run&quot;,
+    &quot;Application.ElementFrequency.executor&quot;: &quot;Run&quot;,
+    &quot;Application.EmployeeTest (1).executor&quot;: &quot;Run&quot;,
+    &quot;Application.EmployeeTest.executor&quot;: &quot;Run&quot;,
+    &quot;Application.OnlineMarketPlace.executor&quot;: &quot;Run&quot;,
+    &quot;Application.ResumeScreening.executor&quot;: &quot;Run&quot;,
+    &quot;Application.ReverseList.executor&quot;: &quot;Run&quot;,
+    &quot;Application.SchoolHierarchical.executor&quot;: &quot;Run&quot;,
+    &quot;Application.SmartWareHouse.executor&quot;: &quot;Run&quot;,
+    &quot;Application.UniversityCourses.executor&quot;: &quot;Run&quot;,
+    &quot;Downloaded.Files.Path.Enabled&quot;: &quot;false&quot;,
+    &quot;JUnit.EmailValidationTest.executor&quot;: &quot;Run&quot;,
+    &quot;JUnit.LastNameValidationTest.executor&quot;: &quot;Run&quot;,
+    &quot;JUnit.MobileValidationTest.executor&quot;: &quot;Run&quot;,
+    &quot;JUnit.PasswordValidationTest.executor&quot;: &quot;Run&quot;,
+    &quot;JUnit.UserValidationTest.executor&quot;: &quot;Run&quot;,
+    &quot;ModuleVcsDetector.initialDetectionPerformed&quot;: &quot;true&quot;,
+    &quot;Repository.Attach.Annotations&quot;: &quot;false&quot;,
+    &quot;Repository.Attach.JavaDocs&quot;: &quot;false&quot;,
+    &quot;Repository.Attach.Sources&quot;: &quot;false&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.TerminalTabsStorage.copyFrom.TerminalArrangementManager.252&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.git.unshallow&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.typescript.service.memoryLimit.init&quot;: &quot;true&quot;,
+    &quot;com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrary&quot;: &quot;JUnit5&quot;,
+    &quot;com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.JUnit5&quot;: &quot;&quot;,
+    &quot;create.test.in.the.same.root&quot;: &quot;true&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;feature/collectionsandstreams&quot;,
+    &quot;ignore.virus.scanning.warn.message&quot;: &quot;true&quot;,
+    &quot;kotlin-language-version-configured&quot;: &quot;true&quot;,
+    &quot;last_opened_file_path&quot;: &quot;C:/BridgeLabz_Java&quot;,
+    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
+    &quot;project.structure.last.edited&quot;: &quot;Modules&quot;,
+    &quot;project.structure.proportion&quot;: &quot;0.15&quot;,
+    &quot;project.structure.side.proportion&quot;: &quot;0.2&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;settings.sync&quot;,
+    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   }
-}]]></component>
+}</component>
   <component name="RecentsManager">
     <key name="CreateTestDialog.Recents.Supers">
       <recent name="" />
@@ -91,7 +82,7 @@
       <recent name="junit" />
     </key>
   </component>
-  <component name="RunManager">
+  <component name="RunManager" selected="Application.CompositionCompanyDepartmentDemo">
     <configuration name="CompositionCompanyDepartmentDemo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="CompositionCompanyDepartmentDemo" />
       <module name="objectmodeling" />
@@ -137,7 +128,6 @@
     <attachedChunks>
       <set>
         <option value="bundled-jdk-30f59d01ecdd-2fc7cc6b9a17-intellij.indexing.shared.core-IU-253.31033.145" />
-        <option value="bundled-js-predefined-d6986cc7102b-9b0f141eb926-JavaScript-IU-253.31033.145" />
       </set>
     </attachedChunks>
   </component>
@@ -170,7 +160,9 @@
       <workItem from="1771392151961" duration="7000" />
       <workItem from="1771654289194" duration="647000" />
       <workItem from="1771655008243" duration="2384000" />
-      <workItem from="1771841894927" duration="5254000" />
+      <workItem from="1771841894927" duration="6702000" />
+      <workItem from="1772095667058" duration="690000" />
+      <workItem from="1772190295224" duration="8000" />
     </task>
     <servers />
   </component>
