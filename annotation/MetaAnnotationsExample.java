@@ -8,18 +8,18 @@ import java.lang.reflect.Method;
 // Repeatable container annotation
 @Retention(RetentionPolicy.RUNTIME)
 @Target(ElementType.TYPE)
+@Inherited
 @interface Roles {
     Role[] value();
 }
 
 // Custom annotation with Meta-Annotations
-@Documented
-@Inherited
 @Retention(RetentionPolicy.RUNTIME)
-@Target({ElementType.TYPE, ElementType.METHOD})
-@Repeatable(Roles.class)
-@interface Role {
-    String value();
+@Target(ElementType.TYPE)
+@Inherited
+@Documented     // ✅ ADD THIS
+@interface Roles {
+    Role[] value();
 }
 
 // Parent class using annotation

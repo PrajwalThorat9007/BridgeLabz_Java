@@ -2,10 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="2bfdd073-36d5-4cf8-9884-957e7f30a30e" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/annotation/CustomAnnotationExample.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/annotation/MetaAnnotationsExample.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/annotation/PredefinedAnnotations.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/annotation/ReadCSVToStringArray.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/annotation/MetaAnnotationsExample.java" beforeDir="false" afterPath="$PROJECT_DIR$/annotation/MetaAnnotationsExample.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -54,6 +53,7 @@
     "Application.EmployeeTest.executor": "Run",
     "Application.PredefinedAnnotations.executor": "Run",
     "Application.ProducerConsumerMain.executor": "Debug",
+    "Application.ReadCSVToStringArray.executor": "Run",
     "Application.SchoolHierarchical.executor": "Run",
     "Application.ThreadedCounterMain.executor": "Run",
     "ModuleVcsDetector.initialDetectionPerformed": "true",
@@ -71,7 +71,7 @@
     "vue.rearranger.settings.migration": "true"
   }
 }]]></component>
-  <component name="RunManager">
+  <component name="RunManager" selected="Application.ReadCSVToStringArray">
     <configuration name="CompositionCompanyDepartmentDemo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="CompositionCompanyDepartmentDemo" />
       <module name="objectmodeling" />
@@ -105,8 +105,22 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="ReadCSVToStringArray" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="annotation.ReadCSVToStringArray" />
+      <module name="BridgeLabz_Java" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="annotation.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.ReadCSVToStringArray" />
         <item itemvalue="Application.EmployeeTest" />
         <item itemvalue="Application.CompositionCompanyDepartmentDemo" />
         <item itemvalue="Application.EmployeeTest (1)" />
