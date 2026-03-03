@@ -2,9 +2,23 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="2bfdd073-36d5-4cf8-9884-957e7f30a30e" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/annotation/ReadCSVToStringArray.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/designpattern/AbstractFactoryDemo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/designpattern/AdapterDemo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/designpattern/BridgeDemo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/designpattern/BuilderDemo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/designpattern/ChainDemo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/designpattern/CommandDemo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/designpattern/CompositeDemo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/designpattern/DecoratorDemo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/designpattern/FacadeDemo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/designpattern/FactoryMethodDemo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/designpattern/FlyweightDemo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/designpattern/InterpreterDemo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/designpattern/IteratorDemo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/designpattern/PrototypeDemo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/designpattern/ProxyDemo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/designpattern/SingletonDemo.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/annotation/MetaAnnotationsExample.java" beforeDir="false" afterPath="$PROJECT_DIR$/annotation/MetaAnnotationsExample.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -45,32 +59,32 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "Application.CompositionCompanyDepartmentDemo.executor": "Run",
-    "Application.CustomAnnotationExample.executor": "Run",
-    "Application.EmployeeTest (1).executor": "Run",
-    "Application.EmployeeTest.executor": "Run",
-    "Application.PredefinedAnnotations.executor": "Run",
-    "Application.ProducerConsumerMain.executor": "Debug",
-    "Application.ReadCSVToStringArray.executor": "Run",
-    "Application.SchoolHierarchical.executor": "Run",
-    "Application.ThreadedCounterMain.executor": "Run",
-    "ModuleVcsDetector.initialDetectionPerformed": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "RunOnceActivity.TerminalTabsStorage.copyFrom.TerminalArrangementManager.252": "true",
-    "RunOnceActivity.git.unshallow": "true",
-    "RunOnceActivity.typescript.service.memoryLimit.init": "true",
-    "git-widget-placeholder": "feature/designpatternandio",
-    "ignore.virus.scanning.warn.message": "true",
-    "kotlin-language-version-configured": "true",
-    "last_opened_file_path": "C:/BridgeLabz_Java",
-    "project.structure.last.edited": "Modules",
-    "project.structure.proportion": "0.15",
-    "project.structure.side.proportion": "0.2",
-    "vue.rearranger.settings.migration": "true"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;Application.CompositionCompanyDepartmentDemo.executor&quot;: &quot;Run&quot;,
+    &quot;Application.CustomAnnotationExample.executor&quot;: &quot;Run&quot;,
+    &quot;Application.EmployeeTest (1).executor&quot;: &quot;Run&quot;,
+    &quot;Application.EmployeeTest.executor&quot;: &quot;Run&quot;,
+    &quot;Application.PredefinedAnnotations.executor&quot;: &quot;Run&quot;,
+    &quot;Application.ProducerConsumerMain.executor&quot;: &quot;Debug&quot;,
+    &quot;Application.ReadCSVToStringArray.executor&quot;: &quot;Run&quot;,
+    &quot;Application.SchoolHierarchical.executor&quot;: &quot;Run&quot;,
+    &quot;Application.ThreadedCounterMain.executor&quot;: &quot;Run&quot;,
+    &quot;ModuleVcsDetector.initialDetectionPerformed&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.TerminalTabsStorage.copyFrom.TerminalArrangementManager.252&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.git.unshallow&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.typescript.service.memoryLimit.init&quot;: &quot;true&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;feature/designpatternandio&quot;,
+    &quot;ignore.virus.scanning.warn.message&quot;: &quot;true&quot;,
+    &quot;kotlin-language-version-configured&quot;: &quot;true&quot;,
+    &quot;last_opened_file_path&quot;: &quot;C:/BridgeLabz_Java&quot;,
+    &quot;project.structure.last.edited&quot;: &quot;Modules&quot;,
+    &quot;project.structure.proportion&quot;: &quot;0.15&quot;,
+    &quot;project.structure.side.proportion&quot;: &quot;0.2&quot;,
+    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   }
-}]]></component>
+}</component>
   <component name="RunManager" selected="Application.ReadCSVToStringArray">
     <configuration name="CompositionCompanyDepartmentDemo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="CompositionCompanyDepartmentDemo" />
