@@ -76,7 +76,7 @@
 
 - **25-Feb-2026 (Wed):** Learned about Java streams, difference between collection and stream, what is laziness principle, intermediate and terminal operations in streams.
 
--  **26-Feb-2026 (Thu):**
+-  **26-Feb-2026 (Thu): Studied about Junit. **
 
 -  **27-Feb-2026 (Fri):** Learned about concurent package for multithreading.
 
